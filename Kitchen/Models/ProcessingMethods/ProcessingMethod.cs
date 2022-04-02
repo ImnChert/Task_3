@@ -5,9 +5,6 @@ namespace Kitchen.Models.ProcessingMethods
 {
 	public abstract class ProcessingMethod
 	{
-		//protected static int s_meaning;
-
-		//static Semaphore s_sem = new Semaphore(1, s_meaning);
 		protected static Semaphore s_sem;
 		/// <summary>
 		/// Start processing.
